@@ -3,6 +3,12 @@
   "name": "Feed And Blogroll Discovery",
   "description": "An add-on to discover feeds and blogrolls.",
   "version": "1.0.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "feedandblogrolldiscovery@andregarzia.com",
+      "strict_min_version": "42.0"
+    }
+  },
   "icons": {
     "128": "icons/icon128.png",
     "512": "icons/icon512.png"
