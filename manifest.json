@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Feed And Blogroll Discovery",
+  "description": "An add-on to discover feeds and blogrolls.",
+  "version": "1.0.0",
+  "icons": {
+    "128": "icons/icon128.png",
+    "512": "icons/icon512.png"
+  },
+  "page_action": {
+    "default_icon": {
+      "512": "icons/icon512.png"
+    },
+    "default_popup": "pageAction/index.html",
+    "default_title": "Feeds and Blogroll Discovery"
+  },
+    "background": {
+    "scripts": ["browser-polyfill.js", "background.js"]
+  },
+  "permissions": [
+    "scripting",
+    "tabs",
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "host_permissions": ["<all_urls>"]
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="spectre.min.css">
+  <link rel="stylesheet" href="spectre-exp.min.css">
+  <link rel="stylesheet" href="spectre-icons.min.css">
+  <style>
+    body {
+      padding: 10px;
+    }
+
+    #version {
+      float: right;
+      font-size: 12px;
+    }
+
+    #blogroll_item, #atom_item, #rss_item {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+
+        <!-- -->
+        <div class="card m-1" id="atom_item">
+          <div class="card-header">
+            <div class="card-title h5">Atom Feed</div>
+          </div>
+          <div class="card-footer">
+            <button class="btn" id="atom_copy">Copy</button>
+            <a class="btn" href="" target="_blank" id="atom_link">Open</a>
+          </div>
+        </div>
+
+        <div class="card m-1" id="rss_item">
+          <div class="card-header">
+            <div class="card-title h5">RSS Feed</div>
+          </div>
+          <div class="card-footer">
+            <button class="btn" id="rss_copy">Copy</button>
+            <a class="btn" href="" target="_blank" id="rss_link">Open</a>
+          </div>
+        </div>
+
+        <div class="card m-1" id="blogroll_item">
+          <div class="card-header">
+            <div class="card-title h5">Blogroll</div>
+          </div>
+          <div class="card-footer">
+            <button class="btn" id="blogroll_copy">Copy</button>
+            <a class="btn" href="" target="_blank" id="blogroll_link">Open</a>
+          </div>
+        </div>
+
+
+        <!-- -->
+        <span>Feed and Blogroll Discovery</span>
+        <a href="https://git.sr.ht/~soapdog/remind-me-of-that-page" id="version"></a>
+      </div>
+    </div>
+  </div>
+  <script src="../browser-polyfill.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
