@@ -3,6 +3,7 @@
 A handy add-on that helps surface feeds and blogrolls from websites you visit.
 
 ![Animation showing the add-on working and sending the feed to a native feed reading application.](animation.gif)
+_Animation showing the add-on working and sending the feed to a native feed reading application._
 
 # Privacy Policy
 
